@@ -1,5 +1,12 @@
 [
   {
+    "title": "Where to Sample: Rethinking ML-Based Malicious Traffic Detection at Terabit Scale",
+    "authors": "João Romeiras Amado, Francisco Pereira, David Pissarra, Salvatore Signorello, Miguel Correia, Fernando M. V. Ramos",
+    "venue": "arXiv:2403.18788v2, 2026",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2403.18788"
+  },
+  {
     "title": "Poster: SALAD-Nets: Synthesizing Adaptive, Accelerated, and Distributed Network Functions",
     "authors": "R Miguel, L Pedrosa, FMV Ramos",
     "venue": "2025 23rd International Symposium on Network Computing and Applications (NCA …, 2025",
@@ -26,13 +33,6 @@
     "venue": "2024 IEEE 32nd International Conference on Network Protocols (ICNP), 1-6, 2024",
     "year": 2024,
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=NhC7jcQAAAAJ&pagesize=100&citation_for_view=NhC7jcQAAAAJ:Mojj43d5GZwC"
-  },
-  {
-    "title": "Peregrine: Ml-based malicious traffic detection for terabit networks",
-    "authors": "JR Amado, F Pereira, D Pissarra, S Signorello, M Correia, F Ramos",
-    "venue": "arXiv preprint arXiv:2403.18788, 2024",
-    "year": 2024,
-    "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=NhC7jcQAAAAJ&pagesize=100&citation_for_view=NhC7jcQAAAAJ:WA5NYHcadZ8C"
   },
   {
     "title": "Poster: In-network ML feature computation for malicious traffic detection",
