@@ -1,0 +1,3 @@
+{
+  "html": "<section id=\"news\"><div class=\"sect\"><h2>News</h2><a class=\"section-more\" href=\"news.html\">All news →</a></div><div data-news-list data-limit=\"5\" aria-live=\"polite\"></div></section>"
+}
