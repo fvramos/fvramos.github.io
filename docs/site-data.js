@@ -79,12 +79,27 @@
     slot.outerHTML = html;
   }
   async function renderPage(main) {
-    const id = main.dataset.jsonPage, config = await read("data/pages/" + id + ".json");
-    let html = "";
-    if (id === "cache-explorer") { const d = await read("data/cache-explorer.json"); html = renderCache(d); }
-    else if (id === "alumni") { const d = await read("data/alumni.json"); html = renderAlumniPage(d); }
-    else if (id === "teaching" || id === "community" || id === "awards-talks") { const d = await read("data/" + id + ".json"); html = renderGenericPage(d); }
-    else { html = '<h1 class="page-title">' + esc(config.title) + '</h1>' + (config.intro ? '<p>' + esc(config.intro) + '</p>' : '') + (config.links?.length ? '<p>' + config.links.map(x => link(x.label + " →",x.url)).join(" · ") + '</p>' : '') + (id === "news" ? '<div data-news-list aria-live="polite"></div>' : id === "papers" ? '<div data-publications aria-live="polite"></div>' : id === "projects" ? '<div data-projects></div>' : ''); }
+    const id = main.dataset.jsonPage;
+    let data, html = "";
+    if (id === "cache-explorer") {
+      data = await read("data/cache-explorer.json");
+      html = renderCache(data);
+    } else if (id === "alumni") {
+      data = await read("data/alumni.json");
+      html = renderAlumniPage(data);
+    } else if (id === "teaching" || id === "community" || id === "awards-talks") {
+      data = await read("data/" + id + ".json");
+      html = renderGenericPage(data);
+    } else if (id === "news") {
+      data = await read("data/news.json");
+      html = '<h1 class="page-title">' + esc(data.title || "All news") + '</h1>' + (data.intro ? '<p>' + esc(data.intro) + '</p>' : '') + '<div data-news-list aria-live="polite"></div>';
+    } else if (id === "papers") {
+      data = await read("data/publications.json");
+      html = '<h1 class="page-title">' + esc(data.title) + '</h1><p>' + esc(data.intro) + '</p><p>' + data.links.map(x => link(x.label + " →",x.url)).join(" · ") + '</p><div data-publications aria-live="polite"></div>';
+    } else if (id === "projects") {
+      data = await read("data/projects.json");
+      html = '<h1 class="page-title">' + esc(data.title) + '</h1><p>' + esc(data.intro) + '</p><div data-projects></div>';
+    }
     main.innerHTML = html;
     document.dispatchEvent(new Event("site:content-loaded"));
   }

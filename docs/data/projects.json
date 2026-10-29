@@ -103,5 +103,7 @@
       "url": "https://arxiv.org/abs/2403.18788",
       "description": "computing features before sampling for ML-based malicious traffic detection at terabit scale."
     }
-  ]
+  ],
+  "title": "Projects",
+  "intro": "Selected funded research projects, spanning programmable networks, Internet architecture, and distributed edge systems."
 }

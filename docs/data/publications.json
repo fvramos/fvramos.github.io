@@ -805,5 +805,17 @@
       "year": 2002,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=NhC7jcQAAAAJ&pagesize=100&citation_for_view=NhC7jcQAAAAJ:kNdYIx-mwKoC"
     }
+  ],
+  "title": "Publications",
+  "intro": "Papers and other research publications, ordered by year.",
+  "links": [
+    {
+      "label": "Google Scholar",
+      "url": "https://scholar.google.com/citations?user=NhC7jcQAAAAJ"
+    },
+    {
+      "label": "DBLP",
+      "url": "https://dblp.org/pid/21/8398.html"
+    }
   ]
 }

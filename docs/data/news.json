@@ -1,6 +1,5 @@
 {
   "schema_version": 1,
-  "page_title": "All news",
   "items": [
     {
       "date": "2026-10-28",
@@ -157,5 +156,7 @@
         }
       ]
     }
-  ]
+  ],
+  "title": "All news",
+  "intro": ""
 }

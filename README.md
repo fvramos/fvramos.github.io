@@ -22,7 +22,7 @@ Edit the relevant JSON file, commit the change to `master`, and GitHub Pages wil
 | Awards and talks | [`docs/data/awards-talks.json`](docs/data/awards-talks.json) |
 | Cache Explorer labels, controls, and guide | [`docs/data/cache-explorer.json`](docs/data/cache-explorer.json) |
 
-Page titles and introductions for content pages are in `docs/data/pages/`. The record files above hold the actual lists and details.
+Each page’s title, introduction, and content are kept together in its JSON file. There is no separate page-configuration folder.
 
 ## Add a news item
 
