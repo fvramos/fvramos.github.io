@@ -1,3 +1,7 @@
 {
-  "html": "<section id=\"news\"><div class=\"sect\"><h2>News</h2><a class=\"section-more\" href=\"news.html\">All news →</a></div><div data-news-list data-limit=\"5\" aria-live=\"polite\"></div></section>"
+  "schema_version": 1,
+  "type": "news_preview",
+  "title": "News",
+  "limit": 5,
+  "all_news_url": "news.html"
 }

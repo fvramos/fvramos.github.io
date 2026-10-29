@@ -1,3 +1,82 @@
 {
-  "html": "<section id=\"service\"><div class=\"sect\"><h2>Community</h2><a class=\"section-more\" href=\"community.html\">All community service →</a></div><h3 class=\"subheading\">Conference &amp; workshop organisation</h3><ul class=\"service-list\"><li><strong>CoNEXT 2027</strong> — Technical Program Committee Co-chair, with Gyuyeong Kim. <a href=\"https://conferences.sigcomm.org/co-next/2027/partials/cfp.html\">Call for papers →</a></li><li><strong>EuroP4 2026</strong> — Steering committee; helping organise the workshop at CoNEXT 2026. <a href=\"https://p4.org/euro-p4-2026/\">Workshop →</a></li><li><strong>SIGCOMM 2026</strong> — SmartNIC tutorial co-organiser. <a href=\"https://conferences.sigcomm.org/sigcomm/2026/tutorials/smartnic/\">Tutorial →</a> · <a href=\"https://fchamicapereira.github.io/sigcomm26-tutorial-bluefield/\">Hands-on materials →</a></li><li><strong>SIGCOMM 2025</strong> — Registration Co-chair. <a href=\"https://conferences.sigcomm.org/sigcomm/2025/organization/\">Organizing committee →</a></li></ul><h3 class=\"subheading\">Program committees</h3><ul class=\"service-list\"><li><a href=\"https://www.usenix.org/conference/nsdi27\">NSDI 2027</a></li><li><a href=\"https://conferences.sigcomm.org/sigcomm/2026/\">SIGCOMM 2026</a></li></ul><h3 class=\"subheading\">Education & community</h3><ul class=\"service-list\"><li>P4 Education Working Group — Co-chair.</li></ul></section>"
+  "schema_version": 1,
+  "type": "service_preview",
+  "title": "Community",
+  "groups": [
+    {
+      "title": "Conference & workshop organisation",
+      "items": [
+        [
+          {
+            "text": "CoNEXT 2027 — Technical Program Committee Co-chair, with Gyuyeong Kim."
+          },
+          {
+            "text": "Call for papers →",
+            "url": "https://conferences.sigcomm.org/co-next/2027/partials/cfp.html"
+          }
+        ],
+        [
+          {
+            "text": "EuroP4 2026 — Steering committee; helping organise the workshop at CoNEXT 2026."
+          },
+          {
+            "text": "Workshop →",
+            "url": "https://p4.org/euro-p4-2026/"
+          }
+        ],
+        [
+          {
+            "text": "SIGCOMM 2026 — SmartNIC tutorial co-organiser."
+          },
+          {
+            "text": "Tutorial →",
+            "url": "https://conferences.sigcomm.org/sigcomm/2026/tutorials/smartnic/"
+          },
+          {
+            "text": "·"
+          },
+          {
+            "text": "Hands-on materials →",
+            "url": "https://fchamicapereira.github.io/sigcomm26-tutorial-bluefield/"
+          }
+        ],
+        [
+          {
+            "text": "SIGCOMM 2025 — Registration Co-chair."
+          },
+          {
+            "text": "Organizing committee →",
+            "url": "https://conferences.sigcomm.org/sigcomm/2025/organization/"
+          }
+        ]
+      ]
+    },
+    {
+      "title": "Program committees",
+      "items": [
+        [
+          {
+            "text": "NSDI 2027",
+            "url": "https://www.usenix.org/conference/nsdi27"
+          }
+        ],
+        [
+          {
+            "text": "SIGCOMM 2026",
+            "url": "https://conferences.sigcomm.org/sigcomm/2026/"
+          }
+        ]
+      ]
+    },
+    {
+      "title": "Education & community",
+      "items": [
+        [
+          {
+            "text": "P4 Education Working Group — Co-chair."
+          }
+        ]
+      ]
+    }
+  ]
 }

@@ -1,3 +1,16 @@
 {
-  "html": "<h1 class=\"page-title\">Publications</h1><p>Papers and other research publications, ordered by year. <a href=\"https://scholar.google.com/citations?user=NhC7jcQAAAAJ\">Google Scholar →</a> · <a href=\"https://dblp.org/pid/21/8398.html\">DBLP →</a></p><div data-publications aria-live=\"polite\"></div>"
+  "schema_version": 1,
+  "title": "Publications",
+  "intro": "Papers and other research publications, ordered by year.",
+  "links": [
+    {
+      "label": "Google Scholar",
+      "url": "https://scholar.google.com/citations?user=NhC7jcQAAAAJ"
+    },
+    {
+      "label": "DBLP",
+      "url": "https://dblp.org/pid/21/8398.html"
+    }
+  ],
+  "source": "publications.json"
 }

@@ -1,0 +1,305 @@
+{
+  "schema_version": 1,
+  "title": "Teaching",
+  "intro": "I have taught undergraduate, MSc, and PhD courses across five institutions, spanning computer networks, distributed systems, computer architecture, and telecommunications. My experience includes coordinating more than ten courses and teaching both large classes and small research seminars.",
+  "sections": [
+    {
+      "title": "Recent courses at Técnico",
+      "groups": [
+        {
+          "title": "",
+          "items": [
+            {
+              "content": [
+                {
+                  "text": "I coordinate the Master’s Programme in Telecommunications and Informatics Engineering (METI)."
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "For Computer Organization students:"
+                },
+                {
+                  "text": "interactive cache simulation →",
+                  "url": "cache-explorer-oc-lab.html"
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "Advanced Topics in Networked Distributed Systems",
+                  "url": "https://fenix.tecnico.ulisboa.pt/disciplinas/TARSD/2026-2027/1-semestre"
+                },
+                {
+                  "text": "2026/27"
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "Computer Networks",
+                  "url": "https://fenix.tecnico.ulisboa.pt/disciplinas/RC2/2026-2027/1-semestre"
+                },
+                {
+                  "text": "2026/27"
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "Computer Organization",
+                  "url": "https://fenix.tecnico.ulisboa.pt/disciplinas/OC/2026-2027/1-semestre"
+                },
+                {
+                  "text": "2026/27"
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "Introduction to Computer Architecture",
+                  "url": "https://fenix.tecnico.ulisboa.pt/disciplinas/IAC23610/2025-2026/2-semestre"
+                },
+                {
+                  "text": "2025/26"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Courses I created",
+      "groups": [
+        {
+          "title": "",
+          "items": [
+            {
+              "content": [
+                {
+                  "text": "Advanced Computer Networks — MSc level, Faculty of Sciences, University of Lisbon."
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "Future Internet — PhD level, Faculty of Sciences, University of Lisbon."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Teaching history",
+      "groups": [
+        {
+          "title": "",
+          "items": []
+        }
+      ]
+    },
+    {
+      "title": "Instituto Superior Técnico, University of Lisbon",
+      "groups": [
+        {
+          "title": "",
+          "items": [
+            {
+              "content": [
+                {
+                  "text": "Teaching includes Distributed Systems and Computer Architectures, alongside the recent courses listed above."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Faculty of Sciences, University of Lisbon",
+      "groups": [
+        {
+          "title": "",
+          "items": [
+            {
+              "content": [
+                {
+                  "text": "Computer Networks"
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "Advanced Computer Networks (MSc; course creator)"
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "Future Internet (PhD; course creator)"
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "Distributed Systems"
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "Operating Systems"
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "Computer Architectures"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "University of Cambridge",
+      "groups": [
+        {
+          "title": "",
+          "items": [
+            {
+              "content": [
+                {
+                  "text": "Digital Communications I and II"
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "Computer Systems Modelling"
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "Algorithms"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ISEL — Lisbon School of Engineering",
+      "groups": [
+        {
+          "title": "",
+          "items": [
+            {
+              "content": [
+                {
+                  "text": "Electromagnetism"
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "Applied Physics"
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "Electronics"
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "Telecommunication Systems"
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "Optical Communication Systems"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "University of Aveiro",
+      "groups": [
+        {
+          "title": "",
+          "items": [
+            {
+              "content": [
+                {
+                  "text": "MATLAB Programming"
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "Fortran Programming"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Teaching recognition",
+      "groups": [
+        {
+          "title": "",
+          "items": [
+            {
+              "content": [
+                {
+                  "text": "Excellent Teacher — Instituto Superior Técnico, 2020 and 2021."
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "Honourable mention for teaching excellence — laboratory classes and lectures, Faculty of Sciences, University of Lisbon, 2019."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

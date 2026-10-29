@@ -1,0 +1,417 @@
+{
+  "schema_version": 1,
+  "title": "Community & service",
+  "intro": "Conference organisation, program committees, professional service, and outreach.",
+  "sections": [
+    {
+      "title": "Recent service",
+      "groups": [
+        {
+          "title": "",
+          "items": []
+        }
+      ]
+    },
+    {
+      "title": "Conference & workshop organisation",
+      "groups": [
+        {
+          "title": "",
+          "items": [
+            {
+              "content": [
+                {
+                  "text": "CoNEXT 2027 — Technical Program Committee Co-chair, with Gyuyeong Kim."
+                },
+                {
+                  "text": "Call for papers →",
+                  "url": "https://conferences.sigcomm.org/co-next/2027/partials/cfp.html"
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "EuroP4 2026 — Steering committee; helping organise the workshop at CoNEXT 2026."
+                },
+                {
+                  "text": "Workshop →",
+                  "url": "https://p4.org/euro-p4-2026/"
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "SIGCOMM 2026 — SmartNIC tutorial co-organiser."
+                },
+                {
+                  "text": "Tutorial →",
+                  "url": "https://conferences.sigcomm.org/sigcomm/2026/tutorials/smartnic/"
+                },
+                {
+                  "text": "·"
+                },
+                {
+                  "text": "Hands-on materials →",
+                  "url": "https://fchamicapereira.github.io/sigcomm26-tutorial-bluefield/"
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "SIGCOMM 2025 — Registration Co-chair."
+                },
+                {
+                  "text": "Organizing committee →",
+                  "url": "https://conferences.sigcomm.org/sigcomm/2025/organization/"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Program committees",
+      "groups": [
+        {
+          "title": "",
+          "items": [
+            {
+              "content": [
+                {
+                  "text": "NSDI 2027",
+                  "url": "https://www.usenix.org/conference/nsdi27"
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "SIGCOMM 2026",
+                  "url": "https://conferences.sigcomm.org/sigcomm/2026/"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Education & community",
+      "groups": [
+        {
+          "title": "",
+          "items": [
+            {
+              "content": [
+                {
+                  "text": "P4 Education Working Group — Co-chair."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Earlier conference & workshop organisation",
+      "groups": [
+        {
+          "title": "",
+          "items": [
+            {
+              "content": [
+                {
+                  "text": "2022 — SIGCOMM Publications Co-chair and P4 Hackathon organiser."
+                },
+                {
+                  "text": "Committee",
+                  "url": "https://conferences.sigcomm.org/sigcomm/2022/org-committee.html"
+                },
+                {
+                  "text": "·"
+                },
+                {
+                  "text": "Hackathon",
+                  "url": "https://conferences.sigcomm.org/sigcomm/2022/hackathon-p4pi.html"
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "2022 — EuroP4 General Co-chair."
+                },
+                {
+                  "text": "Workshop",
+                  "url": "https://europ4-22.hotcrp.com/"
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "2021 — EuroP4 General Chair."
+                },
+                {
+                  "text": "Workshop",
+                  "url": "https://p4.org/event/4th-p4-workshop-in-europe-europ4-2021/"
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "2019, 2020 — EuroP4 Program Committee Co-chair."
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "2019 — Co-organiser, Dagstuhl Seminar 19141: Programmable Network Data Planes."
+                },
+                {
+                  "text": "Seminar",
+                  "url": "https://www.dagstuhl.de/19141"
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "2017 — General Co-chair, XDOM0 workshop at EuroSys."
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "2014 — Publicity Chair, ExtremeCom."
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "2010 — Distinguished Speakers Co-chair, S3 workshop at MobiCom/MobiHoc."
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "2009 — Submissions Co-chair, MobiHeld workshop at SIGCOMM."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Earlier program committees",
+      "groups": [
+        {
+          "title": "",
+          "items": [
+            {
+              "content": [
+                {
+                  "text": "2022 — SIGCOMM Doctoral Dissertation Award; USENIX Annual Technical Conference."
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "2021 — ACM CoNEXT; IEEE GLOBECOM."
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "2019 — ACM Symposium on SDN Research (SOSR)."
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "2018 — CloudCom; P4 Workshop in Europe; SOSR posters and demos."
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "2016 — SIGCOMM posters and demos; GAIA."
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "2015 — SOFTNETWORKING; DISN at DSN; SBRC."
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "2014 — EMERGING."
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "2013 — CRC."
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "2012 — EuroITV."
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "2011 — CETC."
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "2010 — S3; IWITMA."
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "2007 — CoNEXT shadow technical program committee."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Research evaluation & reviewing",
+      "groups": [
+        {
+          "title": "",
+          "items": [
+            {
+              "content": [
+                {
+                  "text": "Project review panels: CHIST-ERA (2019); ANI and the French National Research Agency (2017); National Science Centre, Poland (2015–2017); Pontificia Universidad Católica del Perú (2016)."
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "Journal reviewing has included IEEE/ACM Transactions on Networking, IEEE Journal on Selected Areas in Communications, ACM Computer Communication Review, ACM Computing Surveys, IEEE Communications Magazine, Computer Networks, IEEE Communications Letters, The Computer Journal, IEEE Transactions on Network and Service Management, IEEE Transactions on Information Forensics and Security, and IEEE Network."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Education, outreach & academic service",
+      "groups": [
+        {
+          "title": "",
+          "items": [
+            {
+              "content": [
+                {
+                  "text": "P4 Education Working Group — Co-chair since September 2021."
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "2015–2018 — Co-created Talks@DI, the Informática em Ciências seminar, and Dia Ciência @ Informática, with Tiago Guerreiro and Cátia Pesquita at FCUL."
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "2013–2015 — FCUL Programming Contests Committee; helped create FCUL Rally Pro and Scratch Lab."
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "From 2013 — Organised LASIGE Navtalks, providing a forum for research ideas and discussion."
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "2008–2010 — University of Cambridge Court of Discipline."
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "2008–2009 — Treasurer of the Clare Hall Graduate Student Body and member of the college Finance Committee."
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "2006–2008 — Clare Hall Graduate Student Body Social Committee."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Professional memberships",
+      "groups": [
+        {
+          "title": "",
+          "items": [
+            {
+              "content": [
+                {
+                  "text": "IEEE Senior Member; ACM member; Associate Fellow of the Higher Education Academy."
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "Past service: MEF Research Council."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,17 +1,61 @@
 # Fernando Ramos — Academic Website
 
-The live website is published from [`docs/`](docs/) using GitHub Pages.
+The site is published from `docs/` with GitHub Pages. Website content lives in editable JSON files under `docs/data/`; the HTML pages provide the shared layout, and `docs/site-data.js` renders the JSON records.
 
-## Updating site content
+## Update content
 
-All content pages load their editable content from JSON files. News, publications, and projects use structured records; the remaining page sections use an `html` field so you can edit the content without changing the HTML page:
+Edit the relevant JSON file, commit the change to `master`, and GitHub Pages will publish it automatically.
 
-- **News:** [`docs/data/news.json`](docs/data/news.json). The homepage shows the five newest entries; [All news](https://fvramos.github.io/news.html) shows every entry.
-- **Projects:** [`docs/data/projects.json`](docs/data/projects.json). Add or remove project records; the Projects page renders the lists from this file.
-- **Publications:** [`docs/publications.json`](docs/publications.json). Add or remove a publication object; the page groups entries by year automatically.
+| Content | File |
+| --- | --- |
+| Homepage profile and introduction | [`docs/data/home/about.json`](docs/data/home/about.json) |
+| Homepage news preview | [`docs/data/home/news.json`](docs/data/home/news.json) |
+| PhD and MSc students | [`docs/data/home/lab.json`](docs/data/home/lab.json) |
+| Recent alumni preview | [`docs/data/home/recent-alumni.json`](docs/data/home/recent-alumni.json) |
+| Homepage teaching, highlights, community, contact, biography | The matching files in `docs/data/home/` |
+| All news items | [`docs/data/news.json`](docs/data/news.json) |
+| Publications | [`docs/data/publications.json`](docs/data/publications.json) |
+| Projects | [`docs/data/projects.json`](docs/data/projects.json) |
+| Alumni, by degree and year | [`docs/data/alumni.json`](docs/data/alumni.json) |
+| Teaching history | [`docs/data/teaching.json`](docs/data/teaching.json) |
+| Community service | [`docs/data/community.json`](docs/data/community.json) |
+| Awards and talks | [`docs/data/awards-talks.json`](docs/data/awards-talks.json) |
+| Cache Explorer labels, controls, and guide | [`docs/data/cache-explorer.json`](docs/data/cache-explorer.json) |
 
-After committing changes to `master`, GitHub Pages republishes the site. News records use `date`, `date_label`, `title`, and `body_html`; optional fields are `image`, `image_alt`, `image_class`, `image_link`, `width`, `height`, or `icon: "reading"`. Publication records use `title`, `authors`, `venue`, `year`, and `url`.
+Page titles and introductions for content pages are in `docs/data/pages/`. The record files above hold the actual lists and details.
 
-Homepage sections: `docs/data/home/{about,news,lab,recent-alumni,teaching,highlights,service,contact,biography}.json`. Other content pages: `docs/data/pages/{news,papers,projects,alumni,teaching,community,awards-talks,cache-explorer}.json`. Change the `html` value in a page JSON to edit that page’s content. Keep the JSON valid, including escaping quotation marks inside HTML. The Cache Explorer’s interface content is also stored in its page JSON; its simulator code remains separate.
+## Add a news item
 
-The site is static; no Jekyll or Node build step is required.
+Add an object to the `items` array in `docs/data/news.json`. Each item uses plain fields; links are represented as text and URL pairs, not HTML:
+
+```json
+{
+  "date": "2026-11-01",
+  "date_label": "1 November 2026",
+  "title": "A news headline",
+  "body": [
+    { "text": "A short update with " },
+    { "text": "a useful link", "url": "https://example.org/" }
+  ],
+  "image": "assets/example.png",
+  "image_alt": "Describe the image"
+}
+```
+
+Images are optional. To remove a news item, remove its object from the array.
+
+## Add a publication
+
+Add an object to the `items` array in `docs/data/publications.json`:
+
+```json
+{
+  "title": "Paper title",
+  "authors": ["First Author", "Second Author"],
+  "venue": "Conference or journal",
+  "year": 2026,
+  "url": "https://doi.org/..."
+}
+```
+
+The publications page groups and sorts records by year. Other collections follow the same pattern: edit or remove the relevant record, keeping the JSON syntax valid. There is no HTML to write inside content JSON.

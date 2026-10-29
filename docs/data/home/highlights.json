@@ -1,3 +1,84 @@
 {
-  "html": "<section id=\"highlights\"><div class=\"sect\"><h2>Research Highlights</h2></div><div class=\"highlights\"><article><div class=\"peregrine-figures\"><a class=\"research-figure\" href=\"assets/peregrine-overview.png\" aria-label=\"Enlarge Peregrine overview figure\"><img class=\"research-image\" src=\"assets/peregrine-overview.png\" alt=\"Peregrine computes features before downsampling, preserving information from all packets for ML-based detection\" loading=\"lazy\"></a><a class=\"research-figure\" href=\"assets/peregrine-summary-4.png\" aria-label=\"Enlarge Peregrine detection quality and throughput comparison\"><img class=\"research-image\" src=\"assets/peregrine-summary-4.png\" alt=\"Detection quality versus supported network rate for Peregrine and other detectors; click to view the full chart, including experimental conditions and backend capacity assumptions\" loading=\"lazy\"></a></div><span class=\"meta\">[Preprint 2026] Peregrine</span><h3><a href=\"https://arxiv.org/abs/2403.18788\">Where to Sample: Rethinking ML-Based Malicious Traffic Detection at Terabit Scale</a></h3><p>Computing ML features over all packets before sampling, then sending fewer feature records to software inference—preserving detection effectiveness at terabit scale.</p><a href=\"https://arxiv.org/abs/2403.18788\">Read the paper →</a></article><article><span class=\"meta\">[HotNets 2024] Internet architecture</span><h3><a href=\"https://doi.org/10.1145/3696348.3696876\">Found in Translation</a></h3><p>Exploring how translation can help the Internet evolve towards new architectures.</p><a href=\"https://doi.org/10.1145/3696348.3696876\">Read the paper →</a></article><article><a class=\"research-figure\" href=\"assets/maestro-architecture.png\" aria-label=\"Enlarge Maestro architecture figure\"><img class=\"research-image\" src=\"assets/maestro-architecture.png\" alt=\"Maestro architecture: sequential network function, symbolic execution, constraints generation, RSS configuration and parallel code generation\" loading=\"lazy\"></a><span class=\"meta\">[NSDI 2024] Maestro</span><h3><a href=\"https://maestro.inesc-id.pt/\">Automatic parallelization of network functions</a></h3><p>Turning sequential network functions into parallel implementations while preserving their semantics.</p><a href=\"https://www.usenix.org/conference/nsdi24/presentation/pereira\">Paper & presentation →</a></article></div></section>"
+  "schema_version": 1,
+  "type": "research_highlights",
+  "title": "Research Highlights",
+  "items": [
+    {
+      "tag": "[Preprint 2026] Peregrine",
+      "title": "Where to Sample: Rethinking ML-Based Malicious Traffic Detection at Terabit Scale",
+      "url": "https://arxiv.org/abs/2403.18788",
+      "summary": "Computing ML features over all packets before sampling, then sending fewer feature records to software inference—preserving detection effectiveness at terabit scale.",
+      "figures": [
+        {
+          "src": "assets/peregrine-overview.png",
+          "alt": "Peregrine computes features before downsampling, preserving information from all packets for ML-based detection"
+        },
+        {
+          "src": "assets/peregrine-summary-4.png",
+          "alt": "Detection quality versus supported network rate for Peregrine and other detectors; click to view the full chart, including experimental conditions and backend capacity assumptions"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "assets/peregrine-overview.png"
+        },
+        {
+          "label": "",
+          "url": "assets/peregrine-summary-4.png"
+        },
+        {
+          "label": "Where to Sample: Rethinking ML-Based Malicious Traffic Detection at Terabit Scale",
+          "url": "https://arxiv.org/abs/2403.18788"
+        },
+        {
+          "label": "Read the paper →",
+          "url": "https://arxiv.org/abs/2403.18788"
+        }
+      ]
+    },
+    {
+      "tag": "[HotNets 2024] Internet architecture",
+      "title": "Found in Translation",
+      "url": "https://doi.org/10.1145/3696348.3696876",
+      "summary": "Exploring how translation can help the Internet evolve towards new architectures.",
+      "figures": [],
+      "links": [
+        {
+          "label": "Found in Translation",
+          "url": "https://doi.org/10.1145/3696348.3696876"
+        },
+        {
+          "label": "Read the paper →",
+          "url": "https://doi.org/10.1145/3696348.3696876"
+        }
+      ]
+    },
+    {
+      "tag": "[NSDI 2024] Maestro",
+      "title": "Automatic parallelization of network functions",
+      "url": "https://maestro.inesc-id.pt/",
+      "summary": "Turning sequential network functions into parallel implementations while preserving their semantics.",
+      "figures": [
+        {
+          "src": "assets/maestro-architecture.png",
+          "alt": "Maestro architecture: sequential network function, symbolic execution, constraints generation, RSS configuration and parallel code generation"
+        }
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "assets/maestro-architecture.png"
+        },
+        {
+          "label": "Automatic parallelization of network functions",
+          "url": "https://maestro.inesc-id.pt/"
+        },
+        {
+          "label": "Paper & presentation →",
+          "url": "https://www.usenix.org/conference/nsdi24/presentation/pereira"
+        }
+      ]
+    }
+  ]
 }

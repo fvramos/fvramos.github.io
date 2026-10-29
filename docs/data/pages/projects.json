@@ -1,3 +1,6 @@
 {
-  "html": "<h1 class=\"page-title\">Projects</h1><p>Selected funded research projects, spanning programmable networks, Internet architecture, and distributed edge systems.</p><div data-projects aria-live=\"polite\"></div>"
+  "schema_version": 1,
+  "title": "Projects",
+  "intro": "Selected funded research projects, spanning programmable networks, Internet architecture, and distributed edge systems.",
+  "source": "projects.json"
 }

@@ -1,0 +1,454 @@
+{
+  "schema_version": 1,
+  "title": "Alumni & Former Researchers",
+  "intro": "Former students whom I have supervised or co-supervised, and researchers who worked with me.",
+  "researchers": [
+    {
+      "name": "Salvatore Signorello",
+      "url": "https://www.cienciavitae.pt/en/F61B-314F-C712",
+      "role": "Postdoctoral researcher · INESC-ID/IST · December 2020–September 2021",
+      "summary": "Research on computer networking and programmable data planes.",
+      "previous_work": "Previously, he also worked with me as a postdoctoral researcher on the UPVN project while I was at the University of Lisbon (UL)."
+    }
+  ],
+  "graduates": {
+    "PhD": [
+      {
+        "name": "Diego Kreutz",
+        "degree": "PhD",
+        "year": 2020,
+        "institution": "University of Luxembourg",
+        "thesis_title": "Logically Centralized Security for Software-Defined Networking",
+        "thesis_url": "https://orbilu.uni.lu/handle/10993/44608",
+        "advisers": [],
+        "additional_links": []
+      },
+      {
+        "name": "Max Alaluna",
+        "degree": "PhD",
+        "year": 2019,
+        "institution": "FCUL",
+        "thesis_title": "Secure and Dependable Multi-Cloud Network Virtualization",
+        "thesis_url": "https://hdl.handle.net/10451/42534",
+        "advisers": [],
+        "additional_links": []
+      },
+      {
+        "name": "Pedro Sá da Costa",
+        "degree": "PhD",
+        "year": 2017,
+        "institution": "FCUL",
+        "thesis_title": "Dependable MapReduce in a Cloud-of-Clouds",
+        "advisers": [],
+        "additional_links": []
+      }
+    ],
+    "MSc": [
+      {
+        "name": "Guilherme Leitão",
+        "degree": "MSc",
+        "year": 2026,
+        "institution": "Técnico",
+        "thesis_title": "DEPT: Defense via Ensemble and Purification Transformer",
+        "thesis_url": "https://fenix.tecnico.ulisboa.pt/cursos/meic-a/dissertacao/3098578385896027",
+        "advisers": [],
+        "photo": "assets/guilherme-leitao.jpg",
+        "photo_alt": "Guilherme Leitão",
+        "additional_links": []
+      },
+      {
+        "name": "José Maria Costa Luís Cardoso",
+        "degree": "MSc",
+        "year": 2025,
+        "institution": "Técnico",
+        "thesis_title": "Projeto: NEAT – Network Emulator for Applied Teaching",
+        "thesis_url": "https://fenix.tecnico.ulisboa.pt/cursos/meic-a/dissertacao/1128253548923998",
+        "advisers": [],
+        "additional_links": []
+      },
+      {
+        "name": "João Ivo",
+        "degree": "MSc",
+        "year": 2025,
+        "institution": "Técnico",
+        "thesis_title": "Development of an Internet-SCION translator, towards a secure Internet",
+        "thesis_url": "https://fenix.tecnico.ulisboa.pt/cursos/meic-a/dissertacao/2254153455763763",
+        "advisers": [],
+        "additional_links": []
+      },
+      {
+        "name": "Lourenço Ponces de Carvalho Ramos Duarte",
+        "degree": "MSc",
+        "year": 2024,
+        "institution": "Técnico",
+        "thesis_title": "New abstractions as enablers for efficient composition of network programs",
+        "advisers": [],
+        "additional_links": []
+      },
+      {
+        "name": "João Diogo Ferreira Vieira",
+        "degree": "MSc",
+        "year": 2024,
+        "institution": "Técnico",
+        "thesis_title": "Improving decentralised data plane emulation",
+        "thesis_url": "https://fenix.tecnico.ulisboa.pt/cursos/meic-a/dissertacao/565303595503091",
+        "advisers": [],
+        "additional_links": []
+      },
+      {
+        "name": "Pedro Alexandre Simões dos Reis",
+        "degree": "MSc",
+        "year": 2024,
+        "institution": "Técnico",
+        "thesis_title": "Virtualizing a programmable network switch",
+        "advisers": [],
+        "additional_links": []
+      },
+      {
+        "name": "Guilherme Miguel Ribeiro",
+        "degree": "MSc",
+        "year": 2024,
+        "institution": "Técnico",
+        "thesis_title": "Myriarch: enabling the coexistence of a myriad of Internets",
+        "thesis_url": "https://fenix.tecnico.ulisboa.pt/cursos/meic-t/dissertacao/283828618791082",
+        "advisers": [],
+        "additional_links": []
+      },
+      {
+        "name": "Joana Afonso",
+        "degree": "MSc",
+        "year": 2023,
+        "institution": "Técnico",
+        "thesis_title": "Secure Military Networks: Black or Red?",
+        "thesis_url": "https://scholar.tecnico.ulisboa.pt/records/XfXiOeuGbnMb0m1ULye8P_njuMV-4k4_o-ZK?lang=pt",
+        "advisers": [],
+        "additional_links": []
+      },
+      {
+        "name": "Pedro Moreira",
+        "degree": "MSc",
+        "year": 2023,
+        "institution": "Técnico",
+        "thesis_title": "NF Composition Synthesis",
+        "thesis_url": "https://fenix.tecnico.ulisboa.pt/cursos/meic-t/dissertacao/2254153455763512",
+        "advisers": [],
+        "additional_links": []
+      },
+      {
+        "name": "David de Almeida Pissarra",
+        "degree": "MSc",
+        "year": 2023,
+        "institution": "Técnico",
+        "thesis_title": "In-network ML-based anomaly detection",
+        "thesis_url": "https://fenix.tecnico.ulisboa.pt/cursos/meic-a/dissertacao/1128253548923597",
+        "advisers": [],
+        "additional_links": []
+      },
+      {
+        "name": "David Baptista",
+        "degree": "MSc",
+        "year": 2023,
+        "institution": "Técnico",
+        "thesis_title": "Clone Synthesizing Cloud Network Functions",
+        "thesis_url": "https://fenix.tecnico.ulisboa.pt/cursos/meic-a/dissertacao/1972678479055750",
+        "advisers": [],
+        "additional_links": []
+      },
+      {
+        "name": "Bernardo António Santos Silva Lima Conde",
+        "degree": "MSc",
+        "year": 2022,
+        "institution": "Técnico",
+        "thesis_title": "Development of a SCION router towards a secure Internet",
+        "thesis_url": "https://fenix.tecnico.ulisboa.pt/cursos/meic-a/dissertacao/565303595503101",
+        "advisers": [],
+        "additional_links": []
+      },
+      {
+        "name": "João Rodrigues Felício",
+        "degree": "MSc",
+        "year": 2022,
+        "institution": "Técnico",
+        "thesis_title": "Implementing Optimal Routing Protocols using the P4 Language",
+        "thesis_url": "https://fenix.tecnico.ulisboa.pt/cursos/merc/dissertacao/1972678479055444",
+        "advisers": [],
+        "additional_links": []
+      },
+      {
+        "name": "Daniel Gouveia da Costa Seara",
+        "degree": "MSc",
+        "year": 2022,
+        "institution": "Técnico",
+        "thesis_title": "Towards Finite Field Primitives in Network Switches",
+        "thesis_url": "https://fenix.tecnico.ulisboa.pt/cursos/meic-a/dissertacao/565303595503133",
+        "advisers": [],
+        "additional_links": []
+      },
+      {
+        "name": "Afonso De Paiva e Pona Corte-Real Gonçalves",
+        "degree": "MSc",
+        "year": 2022,
+        "institution": "Técnico",
+        "thesis_title": "Window Based Monitoring: Packet Drop Detection in the Network Data Plane",
+        "thesis_url": "https://fenix.tecnico.ulisboa.pt/cursos/meic-a/dissertacao/565303595503105",
+        "advisers": [],
+        "additional_links": []
+      },
+      {
+        "name": "Steven Das",
+        "degree": "MSc",
+        "year": 2022,
+        "institution": "Técnico",
+        "thesis_title": "Programmable Networking Testbed Management System",
+        "thesis_url": "https://fenix.tecnico.ulisboa.pt/cursos/merc/dissertacao/1972678479056216",
+        "advisers": [],
+        "additional_links": []
+      },
+      {
+        "name": "Francisco Machado",
+        "degree": "MSc",
+        "year": 2022,
+        "institution": "Técnico",
+        "thesis_title": "Synthesis of Network Switch Programs",
+        "thesis_url": "https://fenix.tecnico.ulisboa.pt/cursos/merc/dissertacao/846778572214291",
+        "advisers": [],
+        "additional_links": []
+      },
+      {
+        "name": "Gonçalo Matos",
+        "degree": "MSc",
+        "year": 2021,
+        "institution": "Técnico",
+        "thesis_title": "Network support for attack detection: change you can believe in!",
+        "thesis_url": "https://fenix.tecnico.ulisboa.pt/cursos/meic-a/dissertacao/565303595502885",
+        "advisers": [],
+        "additional_links": []
+      },
+      {
+        "name": "Bernardo Miguel Gaspar Krohn",
+        "degree": "MSc",
+        "year": 2020,
+        "institution": "Técnico",
+        "thesis_title": "Attacking self-driving networks",
+        "thesis_url": "https://fenix.tecnico.ulisboa.pt/cursos/meic-a/dissertacao/1128253548922711",
+        "advisers": [],
+        "additional_links": []
+      },
+      {
+        "name": "João Paulino",
+        "degree": "MSc",
+        "year": 2019,
+        "institution": "FCUL",
+        "thesis_title": "A Deep Dive Into Embedding Algorithms for Secure Network Virtualization",
+        "thesis_url": "https://repositorio.ulisboa.pt/server/api/core/bitstreams/73c636b7-b03e-4c0d-88bb-4b9e5ec65b48/content",
+        "advisers": [],
+        "additional_links": []
+      },
+      {
+        "name": "João Amado",
+        "degree": "MSc",
+        "year": 2018,
+        "institution": "Técnico",
+        "thesis_title": "Extended abstract",
+        "thesis_url": "https://fenix.tecnico.ulisboa.pt/downloadFile/281870113704410/76009-extended-abstract.pdf",
+        "advisers": [],
+        "additional_links": []
+      },
+      {
+        "name": "Pedro Maia",
+        "degree": "MSc",
+        "year": 2018,
+        "institution": "FCUL",
+        "thesis_title": "Resilient Communication in Smart Grids",
+        "thesis_url": "https://www.di.fc.ul.pt/~nuno/THESIS/PedroMaia_MSI18.pdf",
+        "advisers": [],
+        "additional_links": []
+      },
+      {
+        "name": "José Soares",
+        "degree": "MSc",
+        "year": 2018,
+        "institution": "FCUL",
+        "thesis_title": "Migration of networks in multi-cloud environment",
+        "thesis_url": "https://hdl.handle.net/10451/34893",
+        "advisers": [],
+        "additional_links": []
+      },
+      {
+        "name": "Rui Marques",
+        "degree": "MSc",
+        "year": 2017,
+        "institution": "FCUL",
+        "thesis_title": "Named Data Networking with programmable switches",
+        "thesis_url": "https://hdl.handle.net/10451/31861",
+        "advisers": [],
+        "additional_links": []
+      },
+      {
+        "name": "Fábio Pereira",
+        "degree": "MSc",
+        "year": 2017,
+        "institution": "FCUL",
+        "thesis_title": "Secure network monitoring using programmable data planes",
+        "thesis_url": "https://hdl.handle.net/10451/30861",
+        "advisers": [],
+        "additional_links": []
+      },
+      {
+        "name": "Diogo Pinto",
+        "degree": "MSc",
+        "year": 2017,
+        "institution": "FCUL",
+        "thesis_title": "Network coding data planes with programmable switches",
+        "thesis_url": "https://hdl.handle.net/10451/30687",
+        "advisers": [],
+        "additional_links": []
+      },
+      {
+        "name": "André Mantas",
+        "degree": "MSc",
+        "year": 2016,
+        "institution": "FCUL",
+        "thesis_title": "Consistent and Fault-tolerant SDN controller",
+        "thesis_url": "https://hdl.handle.net/10451/25165",
+        "advisers": [],
+        "additional_links": []
+      },
+      {
+        "name": "Luís Ferrolho",
+        "degree": "MSc",
+        "year": 2016,
+        "institution": "FCUL",
+        "thesis_title": "Secure and Dependable Virtual Network Embedding",
+        "thesis_url": "https://www.di.fc.ul.pt/~nuno/THESIS/LuisFerrolho_MSI16.pdf",
+        "advisers": [],
+        "additional_links": []
+      },
+      {
+        "name": "Frederico Brito",
+        "degree": "MSc",
+        "year": 2016,
+        "institution": "FCUL",
+        "thesis_title": "Fast Reroute using Segment Routing for Smart Grids",
+        "thesis_url": "https://www.di.fc.ul.pt/~nuno/THESIS/FredericoBrito_MSI16.pdf",
+        "advisers": [],
+        "additional_links": []
+      },
+      {
+        "name": "Tiago Santos",
+        "degree": "MSc",
+        "year": 2016,
+        "institution": "FCUL",
+        "thesis_title": "Intrusion detection and response on mobile devices",
+        "advisers": [],
+        "additional_links": []
+      },
+      {
+        "name": "Nuno Ferreira",
+        "degree": "MSc",
+        "year": 2016,
+        "institution": "FCUL",
+        "thesis_title": "Preventing DoS Attacks in Multi-Domain Optical SDN",
+        "advisers": [],
+        "additional_links": []
+      },
+      {
+        "name": "Cátia Magalhães",
+        "degree": "MSc",
+        "year": 2015,
+        "institution": "FCUL",
+        "thesis_title": "Towards Secure Software Defined Networks",
+        "advisers": [],
+        "additional_links": []
+      },
+      {
+        "name": "Rodrigo Medeiros",
+        "degree": "MSc",
+        "year": 2015,
+        "institution": "FCUL",
+        "thesis_title": "Secure Monitoring for a Secure Smart Grid",
+        "thesis_url": "https://www.di.fc.ul.pt/~nuno/THESIS/RodrigoMedeiros_master15.pdf",
+        "advisers": [],
+        "additional_links": []
+      },
+      {
+        "name": "Fábio Botelho",
+        "degree": "MSc",
+        "year": 2014,
+        "institution": "FCUL",
+        "thesis_title": "A Consistent and Fault-Tolerant Data Store for Software Defined Networks",
+        "advisers": [],
+        "additional_links": []
+      },
+      {
+        "name": "Tiago Posse",
+        "degree": "MSc",
+        "year": 2014,
+        "institution": "FCUL",
+        "thesis_title": "A Software Defined Networking Architecture for secure routing",
+        "thesis_url": "http://www.dca.fee.unicamp.br/~chesteve/thesis/Tese-MSc-Tiago-SDN-architecture-for-secure-routing.pdf",
+        "advisers": [],
+        "additional_links": []
+      },
+      {
+        "name": "Gonçalo Semedo",
+        "degree": "MSc",
+        "year": 2014,
+        "institution": "FCUL",
+        "thesis_title": "Load balancing in real Software Defined Networks",
+        "thesis_url": "https://www.di.fc.ul.pt/~nuno/THESIS/GoncaloSemedo_master14.pdf",
+        "advisers": [],
+        "additional_links": []
+      },
+      {
+        "name": "Marcos Vasco",
+        "degree": "MSc",
+        "year": 2013,
+        "institution": "FCUL",
+        "thesis_title": "Emulating network applications with a software-defined networking architecture",
+        "thesis_url": "https://hdl.handle.net/10451/10010",
+        "advisers": [],
+        "additional_links": []
+      },
+      {
+        "name": "Vítor Leitão",
+        "degree": "MSc",
+        "year": 2012,
+        "institution": "CMU–Portugal programme",
+        "thesis_title": "IPv6: a new security challenge",
+        "thesis_url": "https://repositorio.ulisboa.pt/bitstreams/e186f18d-5919-47d1-b004-ce2aabf1a6ee/download",
+        "advisers": [],
+        "additional_links": []
+      },
+      {
+        "name": "Carlos Silva",
+        "degree": "MSc",
+        "year": 2011,
+        "institution": "ISEL",
+        "thesis_title": "Reducing CO2 emissions in optical networks",
+        "advisers": [],
+        "additional_links": []
+      },
+      {
+        "name": "Márcio Almeida",
+        "degree": "MSc",
+        "year": 2011,
+        "institution": "ISEL",
+        "thesis_title": "Geração e propagação de sinais rádio sobre fibra (RoF)",
+        "thesis_url": "https://hdl.handle.net/10400.21/1219",
+        "advisers": [],
+        "additional_links": []
+      },
+      {
+        "name": "Ruben Jerónimo",
+        "degree": "MSc",
+        "year": 2011,
+        "institution": "ISEL",
+        "thesis_title": "Estudo comparativo entre sistemas RoF com modulação directa e com modulação externa",
+        "thesis_url": "https://hdl.handle.net/10400.21/1239",
+        "advisers": [],
+        "additional_links": []
+      }
+    ]
+  }
+}

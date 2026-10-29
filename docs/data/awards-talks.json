@@ -1,0 +1,237 @@
+{
+  "schema_version": 1,
+  "title": "Awards & invited talks",
+  "intro": "Research and teaching distinctions, keynotes, and invited presentations.",
+  "sections": [
+    {
+      "title": "Awards & distinctions",
+      "groups": [
+        {
+          "title": "",
+          "items": [
+            {
+              "content": [
+                {
+                  "text": "2021, 2020 — Excellent Teacher Award , Instituto Superior Técnico."
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "2020 — Excellent Thesis Award , University of Luxembourg, awarded to my PhD student Diego Kreutz."
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "2019 — Honourable mention for teaching excellence , FCUL (lectures and laboratory classes)."
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "2017 — CCGRID Best Student Paper Award for Chrysaor: Fine-Grained, Fault-Tolerant Cloud-of-Clouds MapReduce ."
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "2017 — LASIGE Best Researcher Award 2016 ."
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "2016 — Runner-up, One-Minute Madness Audience Award , IFIP Networking."
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "2013 — Finalist, AISTI Best Iberian PhD Thesis in Information Systems and Technologies ."
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "2010 — IWITMA Best Paper Award for Channel Smurfing: Minimising Channel Switching Delay in IPTV Distribution Networks ."
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "2006 — FCT PhD scholarship ."
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "2003 — Drapers’ Company Postgraduate Prize (MSc Best Student Award), Queen Mary University of London."
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "2001 — Portugal Telecom Inovação Innovation Award ."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Invited talks & keynotes",
+      "groups": [
+        {
+          "title": "",
+          "items": [
+            {
+              "content": [
+                {
+                  "text": "See also my"
+                },
+                {
+                  "text": "teaching history",
+                  "url": "teaching.html"
+                },
+                {
+                  "text": "and"
+                },
+                {
+                  "text": "community service",
+                  "url": "community.html"
+                },
+                {
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "2022 — The next 700 network switches . FFSPIN at SIGCOMM."
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "2021 — Automatic parallelization of software network functions . Telefónica I+D, Barcelona; and the Alan Turing Institute Next Generation Networking webinar."
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "2018 — Stop configuring the network – program it! Instituto Superior Técnico."
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "2017 — Securing the Internet at the Exchange Point . European Peering Forum and"
+                },
+                {
+                  "text": "Dagstuhl Seminar 17511",
+                  "url": "https://www.dagstuhl.de/17511"
+                },
+                {
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "2017 — Keynote: Secure network virtualisation with user-centric clouds . DISSECT at IEEE/IFIP IM."
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "2017 — Bring those network functions back to the plumbing!"
+                },
+                {
+                  "text": "Dagstuhl Seminar 17032",
+                  "url": "https://www.dagstuhl.de/17032"
+                },
+                {
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "2016 — Keynote: No more excuses: it’s time to secure BGP! And IXPs are key to make it happen! 29th Euro-IX Forum, Krakow."
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "2016 — Keynote: An SDN-Based approach to enhance BGP security . SDN workshop, Stavanger."
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "2016 — Keynote: Redes Programáveis: (O presente e) o futuro das redes de computadores . Jornadas FCCN, University of Algarve."
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "2014 — The challenge of an Internet for All: can the smart grid be part of the solution?"
+                },
+                {
+                  "text": "Dagstuhl Seminar 14471",
+                  "url": "https://www.dagstuhl.de/14471"
+                },
+                {
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "2012 — Secure, trustworthy, resilient SDN ."
+                },
+                {
+                  "text": "Dagstuhl Seminar 12362",
+                  "url": "https://www.dagstuhl.de/12362"
+                },
+                {
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "text": "Towards Secure and Dependable Software Defined Networks . IETF 89."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

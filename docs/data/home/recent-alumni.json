@@ -1,3 +1,7 @@
 {
-  "html": "<section id=\"recent-alumni\"><div class=\"sect\"><h2>Recent Alumni</h2><a class=\"section-more\" href=\"alumni.html\">All alumni →</a></div><span class=\"meta\">2026</span><ul class=\"alumni-list recent-alumni\"><li data-year=\"2026\"><img class=\"person-photo\" src=\"assets/guilherme-leitao.jpg\" alt=\"Guilherme Leitão\" width=\"88\" height=\"88\" loading=\"lazy\"><h3>Guilherme Leitão</h3><p><span class=\"meta\">MSc thesis · 2026 · Técnico</span><a href=\"https://fenix.tecnico.ulisboa.pt/cursos/meic-a/dissertacao/3098578385896027\">DEPT: Defense via Ensemble and Purification Transformer</a></p><p class=\"supervision\">Supervisor: Fernando Ramos.</p></li></ul><span class=\"meta\">2025</span><ul class=\"alumni-list recent-alumni\"><li data-year=\"2025\"><h3>José Maria Costa Luís Cardoso</h3><p><span class=\"meta\">MSc thesis · 2025 · Técnico</span><a href=\"https://fenix.tecnico.ulisboa.pt/cursos/meic-a/dissertacao/1128253548923998\">Projeto: NEAT – Network Emulator for Applied Teaching</a></p><p class=\"supervision\">Co-supervised with Luís Pedrosa (Técnico).</p></li><li data-year=\"2025\"><h3>João Ivo</h3><p><span class=\"meta\">MSc thesis · 2025 · Técnico</span><a href=\"https://fenix.tecnico.ulisboa.pt/cursos/meic-a/dissertacao/2254153455763763\">Development of an Internet-SCION translator, towards a secure Internet</a></p><p class=\"supervision\">Co-supervised with Luís Pedrosa (Técnico).</p></li></ul></section>"
+  "schema_version": 1,
+  "type": "alumni_preview",
+  "title": "Recent Alumni",
+  "source": "../alumni.json",
+  "count": 3
 }

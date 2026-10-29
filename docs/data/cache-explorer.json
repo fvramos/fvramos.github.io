@@ -1,0 +1,295 @@
+{
+  "schema_version": 1,
+  "title": "Cache Explorer",
+  "intro": "Follow array[i] += 1 through repeated passes. Change the array and stride, then watch whole lines move into the cache and individual bytes change.",
+  "presets": [
+    {
+      "id": "local",
+      "label": "1 · Spatial reuse"
+    },
+    {
+      "id": "capacity",
+      "label": "2 · Exceed capacity"
+    },
+    {
+      "id": "conflict",
+      "label": "3 · Set conflicts"
+    },
+    {
+      "id": "drop",
+      "label": "4 · Fewer competing lines"
+    }
+  ],
+  "controls": [
+    {
+      "label": "Array size (bytes)",
+      "id": "size",
+      "options": [
+        {
+          "value": "16",
+          "label": "16",
+          "selected": false
+        },
+        {
+          "value": "32",
+          "label": "32",
+          "selected": true
+        },
+        {
+          "value": "64",
+          "label": "64",
+          "selected": false
+        },
+        {
+          "value": "128",
+          "label": "128",
+          "selected": false
+        },
+        {
+          "value": "256",
+          "label": "256",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "label": "Stride (bytes)",
+      "id": "stride",
+      "options": [
+        {
+          "value": "1",
+          "label": "1",
+          "selected": true
+        },
+        {
+          "value": "2",
+          "label": "2",
+          "selected": false
+        },
+        {
+          "value": "4",
+          "label": "4",
+          "selected": false
+        },
+        {
+          "value": "8",
+          "label": "8",
+          "selected": false
+        },
+        {
+          "value": "16",
+          "label": "16",
+          "selected": false
+        },
+        {
+          "value": "32",
+          "label": "32",
+          "selected": false
+        },
+        {
+          "value": "64",
+          "label": "64",
+          "selected": false
+        },
+        {
+          "value": "128",
+          "label": "128",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "label": "Cache capacity (bytes)",
+      "id": "capacity",
+      "options": [
+        {
+          "value": "8",
+          "label": "8",
+          "selected": false
+        },
+        {
+          "value": "16",
+          "label": "16",
+          "selected": true
+        },
+        {
+          "value": "32",
+          "label": "32",
+          "selected": false
+        },
+        {
+          "value": "64",
+          "label": "64",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "label": "Cache line (bytes)",
+      "id": "line",
+      "options": [
+        {
+          "value": "2",
+          "label": "2",
+          "selected": false
+        },
+        {
+          "value": "4",
+          "label": "4",
+          "selected": true
+        },
+        {
+          "value": "8",
+          "label": "8",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "label": "Cache organisation",
+      "id": "ways",
+      "options": [
+        {
+          "value": "1",
+          "label": "Direct mapped",
+          "selected": false
+        },
+        {
+          "value": "2",
+          "label": "2-way set associative",
+          "selected": false
+        },
+        {
+          "value": "4",
+          "label": "4-way set associative",
+          "selected": false
+        },
+        {
+          "value": "full",
+          "label": "Fully associative",
+          "selected": true
+        }
+      ]
+    },
+    {
+      "label": "Passes",
+      "id": "passes",
+      "options": [
+        {
+          "value": "3",
+          "label": "3",
+          "selected": true
+        },
+        {
+          "value": "5",
+          "label": "5",
+          "selected": false
+        },
+        {
+          "value": "10",
+          "label": "10",
+          "selected": false
+        }
+      ]
+    }
+  ],
+  "transport": [
+    {
+      "id": "play",
+      "class": "primary",
+      "label": "▶ Play"
+    },
+    {
+      "id": "step",
+      "class": "",
+      "label": "Next phase"
+    },
+    {
+      "id": "access",
+      "class": "",
+      "label": "Complete one access"
+    },
+    {
+      "id": "reset",
+      "class": "",
+      "label": "Restart"
+    }
+  ],
+  "guide": {
+    "title": "What to try, and what this model means",
+    "paragraphs": [
+      [
+        {
+          "text": "Spatial reuse: use a 32-byte array, a 16-byte cache, 4-byte lines and stride 1. Each loaded line supplies four updates: one miss followed by three hits. Change the stride to 4: each update uses a new line."
+        }
+      ],
+      [
+        {
+          "text": "Temporal reuse and capacity: reduce the array to 16 bytes. After the first pass, the full array fits and subsequent passes hit. Increase it to 32 bytes with stride 4: the lines continually replace one another."
+        }
+      ],
+      [
+        {
+          "text": "The sharp drop: the set-conflict preset uses a 32-byte array, a 16-byte cache, 4-byte lines, two ways and stride 8. Blocks 0, 2, 4 and 6 all select set 0, which holds only two lines. Then try the fewer-competing-lines preset: stride 16 visits only blocks 0 and 4, so both remain cached after the first pass. The cache capacity has not changed."
+        }
+      ],
+      [
+        {
+          "text": "Organisation: direct mapped means one line per set; a 2-way cache holds two lines per set; a fully associative cache has one set containing all its lines. Mapping here is block number modulo number of sets."
+        }
+      ],
+      [
+        {
+          "text": "Teaching model: one byte per array element, one cache level, aligned array starting at address 0, write allocate, write back, LRU replacement and an initially empty cache. Values wrap after 255. It models hits and misses, not execution time. It omits prefetching, TLBs, instruction execution and overlap between memory operations. These are illustrative sizes, not a model of the M2 Max. Your benchmark warms up before timing; later passes here demonstrate that reuse."
+        }
+      ]
+    ]
+  },
+  "speed": {
+    "label": "Animation speed",
+    "id": "speed",
+    "options": [
+      {
+        "value": "1400",
+        "label": "Slow",
+        "selected": false
+      },
+      {
+        "value": "700",
+        "label": "Normal",
+        "selected": true
+      },
+      {
+        "value": "200",
+        "label": "Fast",
+        "selected": false
+      }
+    ]
+  },
+  "copy": {
+    "try_example": "Try an example:",
+    "animation_speed": "Animation speed",
+    "memory_title": "Memory array",
+    "memory_description": "Each row is one memory block. Cells show byte offset above, stored value below. Green rows have a copy in cache.",
+    "resident_label": "Resident in cache",
+    "selected_label": "Selected byte",
+    "cache_title": "Cache contents",
+    "cache_dirty_note": "Dirty = modified in cache. Memory receives the changed line when it is evicted. LRU replaces the least recently used line within its set.",
+    "table_headers": [
+      "Set",
+      "Way",
+      "Block / tag",
+      "Bytes: offset / value",
+      "State"
+    ],
+    "accesses_title": "Accesses",
+    "accesses_note": "Every pass restarts at offset 0. Changing any cache or array setting starts a fresh experiment.",
+    "results_title": "Results so far",
+    "result_labels": [
+      "Hits",
+      "Misses",
+      "Hit rate",
+      "Writebacks"
+    ]
+  }
+}
