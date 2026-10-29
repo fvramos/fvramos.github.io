@@ -1,0 +1,106 @@
+{
+  "current": [
+    {
+      "name": "ACES",
+      "url": "https://www.aces-edge.eu/",
+      "role": "Coordinator · EU Horizon Europe · 101093126",
+      "title": "Autopoietic Cognitive Edge-cloud Services",
+      "description": "Self-managing edge-to-cloud infrastructure, with intelligent workload placement, resource management, and security.",
+      "details_url": "https://www.aces-edge.eu/"
+    },
+    {
+      "name": "Myriarch",
+      "url": "https://myriarch.inesc-id.pt/",
+      "role": "Principal Investigator · FCT · 2022.09325.PTDC",
+      "title": "A framework for a multi-architecture Internet",
+      "description": "Enabling different Internet architectures to coexist, including work on translation between IP and SCION.",
+      "details_url": "https://myriarch.inesc-id.pt/"
+    },
+    {
+      "name": "SALAD-Nets",
+      "url": "https://pedrosa.2y.net/Projects/SALAD-Nets?setlang=pt",
+      "role": "Co-Principal Investigator · CMU Portugal / FCT · 2022.15622.CMU",
+      "title": "Synthesizing distributed network functions",
+      "description": "Mapping virtual networks of software functions onto heterogeneous programmable devices, generating code and coordinating their deployment.",
+      "details_url": "https://pedrosa.2y.net/Projects/SALAD-Nets?setlang=pt"
+    },
+    {
+      "name": "uPVN",
+      "url": "https://www.cienciavitae.pt/portal/en/1718-4FC1-781F",
+      "role": "Principal Investigator · 2018–2020 · FCT · PTDC/CCI-INF/30340/2017",
+      "title": "User-centric programmable virtual networks",
+      "description": "A research project on user-centric programmable virtual networks. Project budget: approximately €230,000.",
+      "details_url": "https://www.cienciavitae.pt/portal/en/1718-4FC1-781F"
+    }
+  ],
+  "earlier": [
+    {
+      "name": "SyNAPSE",
+      "role": "Co-Principal Investigator · 2020–2021",
+      "title": "Synthesis of Network Accelerators for Programmable Switching Equipment",
+      "description": "Project budget: approximately €70,000.",
+      "details_url": "https://synapse.inesc-id.pt/",
+      "details_label": "Research system →"
+    },
+    {
+      "name": "SUPERCLOUD",
+      "role": "Project participation · Horizon 2020 · 2015–2018",
+      "description": "Total project budget: €6.9 million; participating team budget: approximately €600,000."
+    },
+    {
+      "name": "SEGRID",
+      "role": "Project participation · FP7 · 2014–2017",
+      "description": "Total project budget: €3.7 million; participating team budget: approximately €400,000."
+    },
+    {
+      "name": "BioBankCloud",
+      "role": "Project participation · 2012–2015",
+      "description": "Total project budget: €2.1 million; participating team budget: approximately €400,000."
+    },
+    {
+      "name": "TRONE",
+      "role": "Project participation · CMU Portugal · 2010–2014",
+      "title": "Trustworthy and Resilient Operations in a Network Environment",
+      "description": "Research on trustworthy network operation, quality of service, and resilience to accidental and malicious faults. Total project budget: approximately €300,000."
+    }
+  ],
+  "other_european": [
+    {
+      "name": "SecFuNet",
+      "details": "FP7, 2011–2013."
+    },
+    {
+      "name": "CYBERAL",
+      "details": "INTERREG III-B, 2002–2003."
+    },
+    {
+      "name": "SHUFFLE",
+      "details": "IST, 2001–2002."
+    },
+    {
+      "name": "CRUMPET",
+      "details": "IST, 2001–2002."
+    },
+    {
+      "name": "TONIC",
+      "details": "IST, 2000–2001."
+    }
+  ],
+  "systems": [
+    {
+      "name": "Maestro",
+      "url": "https://maestro.inesc-id.pt/",
+      "description": "automatic parallelization of software network functions."
+    },
+    {
+      "name": "SyNAPSE",
+      "url": "https://synapse.inesc-id.pt/",
+      "description": "synthesis of network function accelerators."
+    },
+    {
+      "name": "Peregrine",
+      "url": "https://arxiv.org/abs/2403.18788",
+      "description": "computing features before sampling for ML-based malicious traffic detection at terabit scale."
+    }
+  ]
+}

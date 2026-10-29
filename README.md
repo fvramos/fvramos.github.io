@@ -7,6 +7,7 @@ The live website is published from [`docs/`](docs/) using GitHub Pages.
 Recurring content is read from data files, so edit the data instead of duplicated page markup:
 
 - **News:** [`docs/data/news.json`](docs/data/news.json). The homepage shows the five newest entries; [All news](https://fvramos.github.io/news.html) shows every entry.
+- **Projects:** [`docs/data/projects.json`](docs/data/projects.json). Add or remove project records; the Projects page renders the lists from this file.
 - **Publications:** [`docs/publications.json`](docs/publications.json). Add or remove a publication object; the page groups entries by year automatically.
 
 After committing changes to `master`, GitHub Pages republishes the site. News records use `date`, `date_label`, `title`, and `body_html`; optional fields are `image`, `image_alt`, `image_class`, `image_link`, `width`, `height`, or `icon: "reading"`. Publication records use `title`, `authors`, `venue`, `year`, and `url`.

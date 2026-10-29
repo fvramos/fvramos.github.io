@@ -13,6 +13,19 @@
     if (limit) newsRoot.innerHTML = selected.map(renderNewsItem).join("");
     else { const years = [...new Set(selected.map(x => x.date.slice(0,4)))]; newsRoot.innerHTML = years.map(year => '<h2 class="news-year">' + esc(year) + '</h2>' + selected.filter(x => x.date.startsWith(year)).map(renderNewsItem).join("")).join(""); }
   }).catch(error => { newsRoot.textContent = "News could not be loaded."; console.error(error); });
+  const projectsRoot = document.querySelector("[data-projects]");
+  if (projectsRoot) read("data/projects.json").then(data => {
+    const link = (name,url) => url ? '<a href="' + esc(url) + '">' + esc(name) + '</a>' : esc(name);
+    const cards = list => list.map(item => '<article class="project"><h2>' + link(item.name,item.url) + '</h2>' +
+      (item.role ? '<span class="meta">' + esc(item.role) + '</span>' : "") +
+      (item.title ? '<h3>' + esc(item.title) + '</h3>' : "") +
+      (item.description ? '<p>' + esc(item.description) + '</p>' : "") +
+      (item.details_url ? '<a href="' + esc(item.details_url) + '">' + esc(item.details_label || "Project details →") + '</a>' : "") +
+      '</article>').join("");
+    projectsRoot.innerHTML = cards(data.current) + '<h2 class="pub-year">Earlier funded projects</h2>' + cards(data.earlier) +
+      '<h3 class="subheading">Other European projects</h3><ul class="service-list">' + data.other_european.map(item => '<li><strong>' + esc(item.name) + '</strong> — ' + esc(item.details) + '</li>').join("") + '</ul>' +
+      '<h2 class="pub-year">Research systems &amp; tools</h2><ul class="service-list">' + data.systems.map(item => '<li>' + (item.url ? '<a href="' + esc(item.url) + '">' + esc(item.name) + '</a>' : esc(item.name)) + ' — ' + esc(item.description) + '</li>').join("") + '</ul>';
+  }).catch(error => { projectsRoot.textContent = "Projects could not be loaded."; console.error(error); });
   const papersRoot = document.querySelector("[data-publications]");
   if (papersRoot) read("publications.json").then(items => {
     items.sort((a,b) => b.year-a.year || a.title.localeCompare(b.title)); const years = [...new Set(items.map(item => item.year))];
