@@ -12,6 +12,6 @@ All content pages load their editable content from JSON files. News, publication
 
 After committing changes to `master`, GitHub Pages republishes the site. News records use `date`, `date_label`, `title`, and `body_html`; optional fields are `image`, `image_alt`, `image_class`, `image_link`, `width`, `height`, or `icon: "reading"`. Publication records use `title`, `authors`, `venue`, `year`, and `url`.
 
-Homepage sections: `docs/data/home/{about,news,lab,recent-alumni,teaching,highlights,service,contact,biography}.json`. Other content pages: `docs/data/pages/{news,papers,projects,alumni,teaching,community,awards-talks}.json`. Change the `html` value in a page JSON to edit that page’s content. Keep the JSON valid, including escaping quotation marks inside HTML. The interactive Cache Explorer remains a standalone tool.
+Homepage sections: `docs/data/home/{about,news,lab,recent-alumni,teaching,highlights,service,contact,biography}.json`. Other content pages: `docs/data/pages/{news,papers,projects,alumni,teaching,community,awards-talks,cache-explorer}.json`. Change the `html` value in a page JSON to edit that page’s content. Keep the JSON valid, including escaping quotation marks inside HTML. The Cache Explorer’s interface content is also stored in its page JSON; its simulator code remains separate.
 
 The site is static; no Jekyll or Node build step is required.

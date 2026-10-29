@@ -9,7 +9,7 @@
     }));
     const main = document.querySelector("main[data-json-page]");
     if (main) {
-      try { const data = await read("data/pages/" + main.dataset.jsonPage + ".json"); main.innerHTML = data.html; }
+      try { const data = await read("data/pages/" + main.dataset.jsonPage + ".json"); main.innerHTML = data.html; document.dispatchEvent(new Event("site:content-loaded")); }
       catch (error) { main.textContent = "This page could not be loaded."; console.error(error); }
     }
     renderNews(); renderPublications(); renderProjects();
