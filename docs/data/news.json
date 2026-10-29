@@ -1,0 +1,66 @@
+[
+  {
+    "date": "2026-10",
+    "date_label": "October 2026",
+    "title": "Congratulations to Guilherme Leitão on his MSc defense!",
+    "body_html": "Guilherme successfully defended his MSc thesis, exploring defenses against adversarial attacks on AI-driven self-driving networks as part of DEPT / IRON. Congratulations, Guilherme, and all the best for what comes next!",
+    "image": "assets/guilherme-leitao.jpg",
+    "image_alt": "Guilherme Leitão",
+    "image_class": "person-photo",
+    "width": 88,
+    "height": 88
+  },
+  {
+    "date": "2026-10-27",
+    "date_label": "27 October 2026",
+    "title": "New Peregrine revision on arXiv",
+    "body_html": "Our updated paper, <a href=\"https://arxiv.org/abs/2403.18788\">Where to Sample: Rethinking ML-Based Malicious Traffic Detection at Terabit Scale</a>, is now on arXiv. Peregrine computes ML features over all packets before sampling, preserving detection effectiveness while reducing the data sent to software inference.",
+    "image": "assets/peregrine-overview.png",
+    "image_alt": "Peregrine computes ML features before sampling",
+    "image_class": "news-image",
+    "image_link": "https://arxiv.org/abs/2403.18788"
+  },
+  {
+    "date": "2026-10",
+    "date_label": "October 2026",
+    "title": "A new reading course on networks and distributed systems",
+    "body_html": "This semester, I am teaching <a href=\"https://fenix.tecnico.ulisboa.pt/disciplinas/TARSD/2026-2027/1-semestre\">Advanced Topics in Networked Distributed Systems</a>: a paper-based course exploring networks, distributed systems, and their intersection with AI.",
+    "icon": "reading"
+  },
+  {
+    "date": "2026-09",
+    "date_label": "September 2026",
+    "title": "CoNEXT 2027 PC co-chair",
+    "body_html": "I am co-chairing the technical program committee of <a href=\"https://conferences.sigcomm.org/co-next/2027/\">ACM CoNEXT 2027</a> with Gyuyeong Kim. The <a href=\"https://conferences.sigcomm.org/co-next/2027/partials/cfp.html\">call for papers</a> is available—we look forward to your submissions!",
+    "image": "assets/conext27.png",
+    "image_alt": "Rio de Janeiro, host city of CoNEXT 2027",
+    "image_class": "news-image news-landscape"
+  },
+  {
+    "date": "2026-08",
+    "date_label": "August 2026",
+    "title": "SmartNIC programming tutorial at SIGCOMM 2026",
+    "body_html": "I co-organised <a href=\"https://conferences.sigcomm.org/sigcomm/2026/tutorials/smartnic/\">Programming SmartNICs: From Packet Processing to Programmable Transport</a> at SIGCOMM 2026, with hands-on sessions on packet processing and programmable transport. Explore the <a href=\"https://fchamicapereira.github.io/sigcomm26-tutorial-bluefield/\">BlueField-3 tutorial and hands-on materials</a>.",
+    "image": "assets/sigcomm26-clean.png",
+    "image_alt": "SIGCOMM 2026 Denver",
+    "image_class": "news-image"
+  },
+  {
+    "date": "2026-06",
+    "date_label": "June 2026",
+    "title": "Helping organise EuroP4 2026",
+    "body_html": "I am helping organise <a href=\"https://p4.org/euro-p4-2026/\">EuroP4 2026</a> as a member of its steering committee. The workshop takes place on 7 December alongside <a href=\"https://conferences.sigcomm.org/co-next/2026/\">CoNEXT 2026</a> in Utrecht.",
+    "image": "assets/europ4-clean.png",
+    "image_alt": "EuroP4 2026",
+    "image_class": "news-image news-square"
+  },
+  {
+    "date": "2026-05",
+    "date_label": "May 2026",
+    "title": "NSDI 2027 program committee",
+    "body_html": "I joined the <a href=\"https://www.usenix.org/conference/nsdi27\">NSDI 2027 program committee</a>.",
+    "image": "assets/nsdi27.png",
+    "image_alt": "NSDI 2027 — Providence",
+    "image_class": "news-image"
+  }
+]
