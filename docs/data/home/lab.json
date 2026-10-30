@@ -47,7 +47,8 @@
           "url": "https://pedrosa.2y.net/",
           "affiliation": "IST"
         }
-      ]
+      ],
+      "photo": "assets/students/rui-miguel.jpg"
     },
     {
       "name": "Nuno Oliveira",
@@ -64,12 +65,14 @@
         {
           "name": "Tiago Silva",
           "project": "NA-PRAIA",
-          "summary": "Using programmable networks to detect and recover from failures in GPU clusters, reducing interrupted training jobs and protecting model quality."
+          "summary": "Using programmable networks to detect and recover from failures in GPU clusters, reducing interrupted training jobs and protecting model quality.",
+          "photo": "assets/students/tiago-silva.jpg"
         },
         {
           "name": "Luís Calado",
           "project": "GRAIL",
-          "summary": "Generating network protocol implementations from RFCs using AI, with developer feedback to resolve ambiguities and validate compliance with the standards."
+          "summary": "Generating network protocol implementations from RFCs using AI, with developer feedback to resolve ambiguities and validate compliance with the standards.",
+          "photo": "assets/students/luis-calado.jpg"
         }
       ]
     },
@@ -89,7 +92,8 @@
         {
           "name": "Sérgio Olim",
           "project": "AEGIS / IRON",
-          "summary": "Designing adversarial attacks and defenses for AI-driven self-driving networks, with high-performance implementations on CPUs, GPUs, SmartNICs, and programmable switches."
+          "summary": "Designing adversarial attacks and defenses for AI-driven self-driving networks, with high-performance implementations on CPUs, GPUs, SmartNICs, and programmable switches.",
+          "photo": "assets/students/sergio-olim.jpg"
         },
         {
           "name": "João Andrade",
@@ -104,7 +108,8 @@
         {
           "name": "António Delgado",
           "project": "BURST-TM",
-          "summary": "Designing a traffic manager for batch-oriented SmartNICs that groups and schedules packets for state locality and efficient processing. Co-advised with Muhammad Shahbaz (University of Michigan)."
+          "summary": "Designing a traffic manager for batch-oriented SmartNICs that groups and schedules packets for state locality and efficient processing. Co-advised with Muhammad Shahbaz (University of Michigan).",
+          "photo": "assets/students/antonio-delgado.jpg"
         },
         {
           "name": "António Oliveira",
@@ -114,7 +119,8 @@
         {
           "name": "Tiago Branquinho",
           "project": "BURST",
-          "summary": "Synthesizing accelerated network functions from high-level specifications, targeting batch processing, vectorized pipelines, and the RISC-V-based BURST SmartNIC."
+          "summary": "Synthesizing accelerated network functions from high-level specifications, targeting batch processing, vectorized pipelines, and the RISC-V-based BURST SmartNIC.",
+          "photo": "assets/students/tiago-branquinho.jpg"
         },
         {
           "name": "Bernardo Boto",
