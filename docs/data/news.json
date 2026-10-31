@@ -33,7 +33,7 @@
           "url": "https://arxiv.org/abs/2403.18788"
         },
         {
-          "text": ", is now on arXiv. The key question is where to sample: Peregrine computes ML features over all traffic in a programmable switch, then samples the feature records sent to software inference. Across two detectors and 84 attack traces from three datasets, we show that approximate features from all packets can outperform exact features from sampled packets—preserving detection effectiveness while reducing feature-record rates by three orders of magnitude."
+          "text": ", is now on arXiv. We present Peregrine, the first ML-based intrusion detection system to preserve detection effectiveness in terabit networks. Its key insight is to compute features over all traffic before sampling: a programmable switch captures the information needed for detection, while software performs inference. This enables effective detection at network speeds where conventional packet sampling causes existing detectors to miss attacks."
         }
       ]
     },
