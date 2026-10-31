@@ -7,7 +7,7 @@
       "tag": "[Preprint 2026] Peregrine",
       "title": "Where to Sample: Rethinking ML-Based Malicious Traffic Detection at Terabit Scale",
       "url": "https://arxiv.org/abs/2403.18788",
-      "summary": "Computing ML features over all packets before sampling, then sending fewer feature records to software inference—preserving detection effectiveness at terabit scale.",
+      "summary": "The first ML-based intrusion detector to preserve detection effectiveness in terabit networks. The key: compute features over all traffic before sampling.",
       "figures": [
         {
           "src": "assets/peregrine-overview.png",
