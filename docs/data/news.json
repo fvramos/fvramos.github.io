@@ -26,14 +26,14 @@
       "image_link": "https://arxiv.org/abs/2403.18788",
       "body": [
         {
-          "text": "Our updated paper,"
+          "text": "Our updated paper, "
         },
         {
           "text": "Where to Sample: Rethinking ML-Based Malicious Traffic Detection at Terabit Scale",
           "url": "https://arxiv.org/abs/2403.18788"
         },
         {
-          "text": ", is now on arXiv. Peregrine computes ML features over all packets before sampling, preserving detection effectiveness while reducing the data sent to software inference."
+          "text": ", is now on arXiv. The key question is where to sample: Peregrine computes ML features over all traffic in a programmable switch, then samples the feature records sent to software inference. Across two detectors and 84 attack traces from three datasets, we show that approximate features from all packets can outperform exact features from sampled packets—preserving detection effectiveness while reducing feature-record rates by three orders of magnitude."
         }
       ]
     },
