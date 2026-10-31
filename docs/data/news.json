@@ -26,14 +26,11 @@
       "image_link": "https://arxiv.org/abs/2403.18788",
       "body": [
         {
-          "text": "Our updated paper, "
-        },
-        {
-          "text": "Where to Sample: Rethinking ML-Based Malicious Traffic Detection at Terabit Scale",
+          "text": "Peregrine",
           "url": "https://arxiv.org/abs/2403.18788"
         },
         {
-          "text": ", is now on arXiv. We present Peregrine, the first ML-based intrusion detection system to preserve detection effectiveness in terabit networks. Its key insight is to compute features over all traffic before sampling: a programmable switch captures the information needed for detection, while software performs inference. This enables effective detection at network speeds where conventional packet sampling causes existing detectors to miss attacks."
+          "text": " is the first ML-based intrusion detector to preserve detection effectiveness in terabit networks. The key: compute features before sampling. Our updated paper is now on arXiv."
         }
       ]
     },
@@ -44,7 +41,7 @@
       "icon": "reading",
       "body": [
         {
-          "text": "This semester, I am teaching"
+          "text": "This semester, I am teaching "
         },
         {
           "text": "Advanced Topics in Networked Distributed Systems",
@@ -64,17 +61,17 @@
       "image_class": "news-image news-landscape",
       "body": [
         {
-          "text": "I am co-chairing the technical program committee of"
+          "text": "I am co-chairing the technical program committee of "
         },
         {
-          "text": "ACM CoNEXT 2027",
+          "text": "ACM CoNEXT 2027 ",
           "url": "https://conferences.sigcomm.org/co-next/2027/"
         },
         {
-          "text": "with Gyuyeong Kim. The"
+          "text": "with Gyuyeong Kim. The "
         },
         {
-          "text": "call for papers",
+          "text": "call for papers ",
           "url": "https://conferences.sigcomm.org/co-next/2027/partials/cfp.html"
         },
         {
@@ -91,14 +88,14 @@
       "image_class": "news-image",
       "body": [
         {
-          "text": "I co-organised"
+          "text": "I co-organised "
         },
         {
-          "text": "Programming SmartNICs: From Packet Processing to Programmable Transport",
+          "text": "Programming SmartNICs: From Packet Processing to Programmable Transport ",
           "url": "https://conferences.sigcomm.org/sigcomm/2026/tutorials/smartnic/"
         },
         {
-          "text": "at SIGCOMM 2026, with hands-on sessions on packet processing and programmable transport. Explore the"
+          "text": "at SIGCOMM 2026, with hands-on sessions on packet processing and programmable transport. Explore the "
         },
         {
           "text": "BlueField-3 tutorial and hands-on materials",
@@ -118,17 +115,17 @@
       "image_class": "news-image news-square",
       "body": [
         {
-          "text": "I am helping organise"
+          "text": "I am helping organise "
         },
         {
-          "text": "EuroP4 2026",
+          "text": "EuroP4 2026 ",
           "url": "https://p4.org/euro-p4-2026/"
         },
         {
-          "text": "as a member of its steering committee. The workshop takes place on 7 December alongside"
+          "text": "as a member of its steering committee. The workshop takes place on 7 December alongside "
         },
         {
-          "text": "CoNEXT 2026",
+          "text": "CoNEXT 2026 ",
           "url": "https://conferences.sigcomm.org/co-next/2026/"
         },
         {
@@ -145,7 +142,7 @@
       "image_class": "news-image",
       "body": [
         {
-          "text": "I joined the"
+          "text": "I joined the "
         },
         {
           "text": "NSDI 2027 program committee",
