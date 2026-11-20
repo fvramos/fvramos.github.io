@@ -22,7 +22,7 @@
       "url": "https://fchamicapereira.me/",
       "photo": "assets/francisco.jpg",
       "status": "PhD student · Técnico / INESC-ID · CMU affiliation",
-      "summary": "Network functions, synthesis, and acceleration.",
+      "summary": "Francisco studies how to synthesize and accelerate network functions. We are also exploring an agentic Internet in which AI agents help operators diagnose outages and coordinate routing across networks.",
       "co_advisers": [
         {
           "name": "Luís Pedrosa",
