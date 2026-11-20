@@ -33,7 +33,7 @@
     return '<article class="news-item">' + media + '<div><time datetime="' + esc(item.date) + '">' + esc(item.date_label) + '</time><h3>' + esc(item.title) + '</h3><p>' + runs(item.body) + '</p></div></article>';
   }
   async function renderNews(root, limit) {
-    const data = await read("data/news.json"), items = data.items.slice().sort((a,b) => b.date.localeCompare(a.date)), selected = limit ? items.slice(0,limit) : items;
+    const data = await read("data/news.json"), items = data.items.slice().sort((a,b) => b.date.localeCompare(a.date)), selected = limit ? items.filter(item => item.show_on_home === true).slice(0,limit) : items;
     if (limit) root.innerHTML = selected.map(renderNewsItem).join("");
     else { const years = [...new Set(selected.map(x => x.date.slice(0,4)))]; root.innerHTML = years.map(y => '<h2 class="news-year">' + esc(y) + '</h2>' + selected.filter(x => x.date.startsWith(y)).map(renderNewsItem).join("")).join(""); }
   }

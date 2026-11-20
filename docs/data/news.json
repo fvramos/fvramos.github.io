@@ -2,6 +2,43 @@
   "schema_version": 1,
   "items": [
     {
+      "date": "2026-11-20",
+      "date_label": "20 November 2026",
+      "title": "Francisco Pereira wins Best Artifact Award at HotNets 2026!",
+      "show_on_home": true,
+      "image": "assets/francisco.jpg",
+      "image_alt": "Francisco Pereira",
+      "image_class": "person-photo",
+      "width": 88,
+      "height": 88,
+      "body": [
+        {
+          "text": "Congratulations to my PhD student Francisco Pereira on winning the Best Artifact Award at HotNets 2026 for “Instantiating the Knowledge Plane”! Explore the "
+        },
+        {
+          "text": "demo",
+          "url": "https://fchamicapereira.github.io/agentic-networks/demo/"
+        },
+        {
+          "text": ", visit the "
+        },
+        {
+          "text": "project website",
+          "url": "https://fchamicapereira.github.io/agentic-networks/"
+        },
+        {
+          "text": ", and read the "
+        },
+        {
+          "text": "paper",
+          "url": "https://fchamicapereira.me/assets/pdf/pereira-agentic-networks-hotnets26.pdf"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
       "date": "2026-10-28",
       "date_label": "28 October 2026",
       "title": "Congratulations to Guilherme Leitão on his MSc defense!",
@@ -14,7 +51,8 @@
         {
           "text": "Guilherme successfully defended his MSc thesis, exploring defenses against adversarial attacks on AI-driven self-driving networks as part of DEPT / IRON. Congratulations, Guilherme, and all the best for what comes next!"
         }
-      ]
+      ],
+      "show_on_home": false
     },
     {
       "date": "2026-10-27",
@@ -32,7 +70,8 @@
         {
           "text": " is the first ML-based intrusion detector to preserve detection effectiveness in terabit networks. The key: compute features before sampling. Our updated paper is now on arXiv."
         }
-      ]
+      ],
+      "show_on_home": true
     },
     {
       "date": "2026-10",
@@ -50,7 +89,8 @@
         {
           "text": ": a paper-based course exploring networks, distributed systems, and their intersection with AI."
         }
-      ]
+      ],
+      "show_on_home": true
     },
     {
       "date": "2026-09",
@@ -77,7 +117,8 @@
         {
           "text": "is available—we look forward to your submissions!"
         }
-      ]
+      ],
+      "show_on_home": true
     },
     {
       "date": "2026-08",
@@ -104,7 +145,8 @@
         {
           "text": "."
         }
-      ]
+      ],
+      "show_on_home": true
     },
     {
       "date": "2026-06",
@@ -131,7 +173,8 @@
         {
           "text": "in Utrecht."
         }
-      ]
+      ],
+      "show_on_home": false
     },
     {
       "date": "2026-05",
@@ -151,7 +194,8 @@
         {
           "text": "."
         }
-      ]
+      ],
+      "show_on_home": false
     }
   ],
   "title": "All news",

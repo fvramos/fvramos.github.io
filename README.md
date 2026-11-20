@@ -33,6 +33,7 @@ Add an object to the `items` array in `docs/data/news.json`. Each item uses plai
   "date": "2026-11-01",
   "date_label": "1 November 2026",
   "title": "A news headline",
+  "show_on_home": true,
   "body": [
     { "text": "A short update with " },
     { "text": "a useful link", "url": "https://example.org/" }
@@ -42,7 +43,7 @@ Add an object to the `items` array in `docs/data/news.json`. Each item uses plai
 }
 ```
 
-Images are optional. To remove a news item, remove its object from the array.
+Images are optional. Set `show_on_home` to `true` to include an item on the homepage, or `false` to keep it only in the news archive. Items without this field also appear only in the archive. The homepage displays the selected items in reverse chronological order, up to the `limit` in `docs/data/home/news.json`. The All news page always includes every item in reverse chronological order, grouped by year. To remove a news item everywhere, remove its object from the array.
 
 ## Add a publication
 
